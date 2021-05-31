@@ -18,4 +18,6 @@
     <string name="text_cost">$%s</string>
     <string name="text_servings">%s people</string>
     <string name="search">Search recipe here…</string>
+    <string name="empty_favorite">You have no favorite food</string>
+
 </resources>
