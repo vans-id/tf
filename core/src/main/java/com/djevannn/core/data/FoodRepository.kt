@@ -27,7 +27,7 @@ class FoodRepository(
                 }
 
             override fun shouldFetch(data: List<Food>?): Boolean =
-                data == null || data.isEmpty()
+                data == null || data.isEmpty() || query != "steak"
 
             override suspend fun createCall(): Flow<ApiResponse<List<FoodResponse>>> =
                 remoteDataSource.getFoodList(query)

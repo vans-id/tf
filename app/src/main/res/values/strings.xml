@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">Tastyfood</string>
     <string name="title_favorite">Favorite</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="poster">food poster</string>
+    <string name="nutritions">Overview</string>
+    <string name="text_overview">Description</string>
+
+    <string name="text_ratting">Ratting: %s</string>
+    <string name="text_time">%s minutes</string>
+    <string name="text_cost">$%s</string>
+    <string name="text_servings">%s people</string>
+    <string name="search">Search recipe here…</string>
 </resources>

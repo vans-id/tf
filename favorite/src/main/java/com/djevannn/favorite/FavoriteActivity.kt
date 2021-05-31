@@ -1,11 +1,13 @@
 package com.djevannn.favorite
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.djevannn.core.ui.FoodAdapter
 import com.djevannn.favorite.databinding.ActivityFavoriteBinding
+import com.djevannn.tastyfood.ui.detail.DetailFoodActivity
 import org.koin.android.viewmodel.ext.android.viewModel
 import org.koin.core.context.loadKoinModules
 
@@ -30,16 +32,16 @@ class FavoriteActivity : AppCompatActivity() {
     private fun loadFavoriteData() {
         val foodAdapter = FoodAdapter()
         foodAdapter.onItemClick = { selectedData ->
-//            val intent =
-//                Intent(
-//                    this@FavoriteActivity,
-//                    DetailFoodActivity::class.java
-//                )
-//            intent.putExtra(
-//                DetailFoodActivity.EXTRA_FOOD,
-//                selectedData
-//            )
-//            startActivity(intent)
+            val intent =
+                Intent(
+                    this@FavoriteActivity,
+                    DetailFoodActivity::class.java
+                )
+            intent.putExtra(
+                DetailFoodActivity.EXTRA_FOOD,
+                selectedData
+            )
+            startActivity(intent)
         }
 
         viewModel.foods.observe(this, { foods ->
