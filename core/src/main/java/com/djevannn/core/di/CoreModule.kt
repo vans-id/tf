@@ -7,7 +7,6 @@ import com.djevannn.core.data.source.local.room.FoodDatabase
 import com.djevannn.core.data.source.remote.RemoteDataSource
 import com.djevannn.core.data.source.remote.network.ApiService
 import com.djevannn.core.domain.repository.IFoodRepository
-import com.djevannn.core.utils.AppExecutors
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.android.ext.koin.androidContext
