@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="image_description">food image</string>
+    <string name="text_primary">McFlurry</string>
+    <string name="text_restaurant">McDonald</string>
+    <string name="ready_in_minutes">%s minutes</string>
+    <string name="title_favorite">Favorite</string>
+</resources>
