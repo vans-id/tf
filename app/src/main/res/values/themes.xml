@@ -17,6 +17,13 @@
     <style name="Theme.Tastyfood.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/purple_500</item>
+    </style>
+
+    <style name="Theme.Tastyfood.Default">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/white</item>
     </style>
 
     <style name="Theme.Tastyfood.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

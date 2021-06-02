@@ -19,5 +19,7 @@
     <string name="text_servings">%s people</string>
     <string name="search">Search recipe here…</string>
     <string name="empty_favorite">You have no favorite food</string>
+    <string name="favorite">Favorite</string>
+    <string name="icon_caption">icon</string>
 
 </resources>

@@ -12,10 +12,10 @@
         <dist:fusing dist:include="true" />
     </dist:module>
 
-    <application>
+    <application android:allowBackup="false">
         <activity
             android:name=".FavoriteActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            android:theme="@style/Theme.Tastyfood.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
